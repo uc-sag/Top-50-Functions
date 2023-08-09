@@ -38,6 +38,15 @@
     // $newArr = array_merge_uc($arr1,$arr2,true);
     // print_r($newArr);
 
+    //  $arr1 = ['a'=>1,'b'=>2,'c'=>3];
+    //  print_r(array_keys_uc($arr1));
+
+
+        // $arr1 = ['e'=>2,'a'=>1,'b'=>2,'c'=>3,'d'=>3,];
+        // print_r(array_unique_uc($arr1));
+
+
+
     // $time = strtotime('2019-06-13');
     // echo friendlyDate($time);
 
@@ -55,9 +64,11 @@
     // $mesage =   "Message to show";
     // redirect_header($url,$time,$message);
 
-    $str = 'hii this is sagar    . How r u';
-    echo trimWhiteSpace($str);
+    // $str = 'hii this is sagar    . How r u';
+    // echo trimWhiteSpace($str);
 
+    
+    
 
 
 
