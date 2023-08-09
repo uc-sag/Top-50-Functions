@@ -1,6 +1,6 @@
 <?php
  
-    require_once './pe-gold3/prepengine-header.php' ;
+    require_once '../pe-gold3/prepengine-header.php' ;
     
     // $email = "sagar#~<.gupta@ucertify.com";
     // echo isValidEmail($email);    //it does not print anything
@@ -40,6 +40,28 @@
 
     // $time = strtotime('2019-06-13');
     // echo friendlyDate($time);
+
+    //  echo friendlyguid('dsfsd');    // it converts some matching char to another char
+
+    // $i =0;
+    // $strmle = "<p>This is text</p><player type='video' subtype='video_plus'>";
+    // $tag = "player";
+    // $attribute = "type";
+    // echo getAttribute($strmle,$tag,$attribute,$i);   //Get attribute from HTML
+
+
+    // $url='www.google.com';
+    // $time = 3;
+    // $mesage =   "Message to show";
+    // redirect_header($url,$time,$message);
+
+    $str = 'hii this is sagar    . How r u';
+    echo trimWhiteSpace($str);
+
+
+
+
+
 
     
 
